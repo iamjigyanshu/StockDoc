@@ -1,4 +1,4 @@
-!pip3 install pandas_datareader
+
 import streamlit as st
 from datetime import date
 import pandas_datareader as dt
