@@ -10,7 +10,7 @@ from Stock_Sentiment_Analysis import Sentiment_Analyzer
 from prediction import Predictor
 
 st.set_page_config(
-    page_title="Stock Sensei",
+    page_title="Stock Doc",
     page_icon="📈",
     layout="wide",
 )
