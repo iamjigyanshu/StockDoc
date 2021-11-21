@@ -14,7 +14,7 @@ END = st.sidebar.date_input("End date", datetime.date(2021, 1, 31))
 
 #setting the heading for web app
 st.title('StockDoc')
-ticker_list = pd.read_csv("/Users/SpyJigu/downloads/s&p500.csv")
+ticker_list = pd.read_csv("s&p500.csv")
 #list of all the s&p500 stocks are given to users to choose from
 selected_stock = st.sidebar.selectbox('Stock', ticker_list)
 
